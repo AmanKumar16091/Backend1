@@ -36,6 +36,9 @@ const AssignmentSchema = new mongoose.Schema({
   status: {
     type: String,
   },
+  modelAnswerSheetUrl: {
+    type: String,
+  },
 })
 
 const Assignment = mongoose.model('Assignment', AssignmentSchema)
